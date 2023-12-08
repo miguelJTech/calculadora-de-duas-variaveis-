@@ -1,0 +1,12 @@
+x=int(input('digite o valor do primeiro termo')) 
+r = int(input('digite o valor da razão'))
+parametro1 = 0
+parametro2 = 9
+while parametro1 < parametro2:
+    parametro1 += 1
+    x = x + r
+    print('{}'.format(x) , end ='--->') 
+    if parametro2 == parametro1:
+        parametro1 = 0
+        parametro2 = int(input('senhor deseja ver quantos termos a mais ?'))
+print('programa encerrado')
